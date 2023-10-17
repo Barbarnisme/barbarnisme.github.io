@@ -1261,7 +1261,9 @@
 .martop-slice {
     margin-top:0.5rem;
 }
-
+.martop-3 {
+    margin-top: 3rem;
+}
 .martop-4 {
     margin-top: 4rem;
 }
@@ -1359,3 +1361,88 @@
     background: #000;
     color: #ffa41c;
 }
+
+/*start gorilla confirm*/
+
+.gorilla-confirm-card {
+    background-color: #000000;
+    background-image: url("../images/gorilla-confirm.svg");
+    background-repeat: no-repeat;
+    background-position: top 1.2rem left 5%;
+    color: #ffffff;
+    position: relative;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0.375rem 0 0.875rem 0;
+    width: 100%;
+    font-family: Poppins;
+}
+
+.gorilla-confirm-card .card-header,
+.gorilla-confirm-card .card-body,
+.gorilla-confirm-card .card-footer {
+    padding: 0.5rem 1rem;
+}
+
+.gorilla-confirm-card .card-footer {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gorilla-confirm-summary {
+    gap: 1.5rem;
+    width: 100%;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.gorilla-confirm-text {
+    line-height: 22px;
+    color: var(--bg-color, #F4F7F9);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.gorilla-confirm-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26.4px;
+}
+
+.gorilla-confirm-benefit-list {
+    margin: 0;
+    padding-left: 0.5rem;
+    font-weight: 300;
+}
+
+.g-col1 {
+    width: 41%;;
+}
+
+.g-col2 {
+    width: 21%;
+    margin-top: -26px;
+    display: grid;
+    justify-content: flex-end;
+}
+
+.g-col3 {
+    width: 32%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: -26px;
+    margin-bottom: 14px;
+}
+
+.g-col3-pending {
+    width: 32%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: -26px;
+}
+
+/*end gorilla confirm*/
